@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub, FaTwitter, FaYoutube, FaEnvelope } from 'react-ic
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#000000`,
+      background: `#018786`,
       marginBottom: `1.45rem`
     }}
   >
@@ -56,7 +56,7 @@ const Header = ({ siteTitle }) => (
           Projects
         </Link>
         <Link
-          to={`/content/`}
+          to={`/gallery/`}
           style={{
             marginLeft: 20,
             color: `white`,
@@ -64,12 +64,12 @@ const Header = ({ siteTitle }) => (
             fontSize: `20px`
           }}
         >
-          Creation
+          Gallery
         </Link>
       </div>
       <div style={{paddingTop: `1.0875rem`}}>
         <a style={{color: 'white', textDecoration: 'none'}} target="_blank" rel="noreferrer" aria-label="LinkedIn" href='https://www.linkedin.com/in/conner-pinson/'><FaLinkedin /></a>
-        <a style={{color: 'white', textDecoration: 'none', paddingLeft: '10px'}} target="_blank" rel="noreferrer" aria-label="GitHub" href='https://www.linkedin.com/in/conner-pinson/'><FaGithub /></a>
+        <a style={{color: 'white', textDecoration: 'none', paddingLeft: '10px'}} target="_blank" rel="noreferrer" aria-label="GitHub" href='https://github.com/pinsonc'><FaGithub /></a>
         <a style={{color: 'white', textDecoration: 'none', paddingLeft: '10px'}} target="_blank" rel="noreferrer" aria-label="Twitter" href='https://twitter.com/pinsonneedles'><FaTwitter /></a>
         <a style={{color: 'white', textDecoration: 'none', paddingLeft: '10px'}} target="_blank" rel="noreferrer" aria-label="YouTube" href='https://www.youtube.com/channel/UC8oDiWMhnO3FqLTpYTpSOxA'><FaYoutube /></a>
         <a style={{color: 'white', textDecoration: 'none', paddingLeft: '10px'}} target="_blank" rel="noreferrer" aria-label="E-mail" href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%63%6F%6E%6E%65%72%2E%70%69%6E%73%6F%6E%40%68%65%79%2E%63%6F%6D"><FaEnvelope /></a>
