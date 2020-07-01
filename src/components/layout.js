@@ -8,6 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
+import { FaHeart } from "react-icons/fa"
 
 import Header from "./header"
 import "./layout.css"
@@ -34,10 +35,14 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
+        <hr></hr>
+        <footer style={{color: 'gray'}}>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a style={{textDecoration: 'none', color: 'gray'}} href="https://www.gatsbyjs.org">Gatsby</a> + {' '}
+          <a style={{textDecoration: 'none', color: 'gray'}} href="https://reactjs.org/">React</a> + {' '}
+          <a style={{textDecoration: 'none', color: 'gray'}} href="https://www.netlify.com/">Netlify</a> + {' '}
+          <FaHeart style={{color: 'red'}}/>
         </footer>
       </div>
     </>
