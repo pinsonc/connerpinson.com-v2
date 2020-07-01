@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div style ={{display: 'flex'}}>
-      <img src={me} width='250px' height='250px' style={{borderRadius: '50%', overflow: 'hidden', flex: 'none'}} />
+      <img src={me} width='250px' height='250px' alt="Conner Pinson headshot" style={{borderRadius: '50%', overflow: 'hidden', flex: 'none'}} />
       <p style={{alignSelf: 'center', paddingLeft: '20px'}}>
         <h2>Hey, I'm Conner</h2>
         Welcome to my little corner of the Internet.
