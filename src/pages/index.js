@@ -18,7 +18,7 @@ const IndexPage = () => (
       
     </div>
     
-    <h2>About Me</h2>
+    <h2 style={{paddingTop: '20px'}}>About Me</h2>
     <p>
       I'm a Tennessee native and recent graduate of Vanderbilt University where I majored in Computer Science and minored in Engineering Management. While 
       studying there I worked for multiple different research laboratories specializing in topics from embedded systems, to VR experience 
